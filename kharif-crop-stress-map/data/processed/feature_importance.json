@@ -1,0 +1,200 @@
+{
+  "gain": [
+    {
+      "feature": "enso_offset_iod",
+      "gain": 14.5662
+    },
+    {
+      "feature": "oni_mam_mean",
+      "gain": 11.5035
+    },
+    {
+      "feature": "enso_iod_compound",
+      "gain": 10.1781
+    },
+    {
+      "feature": "oni_jjas_max",
+      "gain": 8.3622
+    },
+    {
+      "feature": "drought_streak",
+      "gain": 7.14
+    },
+    {
+      "feature": "oni_jjas_mean",
+      "gain": 7.1381
+    },
+    {
+      "feature": "rainfall_deficit_pct",
+      "gain": 7.023
+    },
+    {
+      "feature": "effective_stress",
+      "gain": 5.3902
+    },
+    {
+      "feature": "enso_phase_enc",
+      "gain": 5.3825
+    },
+    {
+      "feature": "oni_jjas_min",
+      "gain": 5.3006
+    },
+    {
+      "feature": "climate_stress_index",
+      "gain": 2.7767
+    },
+    {
+      "feature": "dmi_son_mean",
+      "gain": 2.3807
+    },
+    {
+      "feature": "dmi_jjas_mean",
+      "gain": 2.0576
+    },
+    {
+      "feature": "dmi_jjas_max",
+      "gain": 1.7679
+    },
+    {
+      "feature": "rainfall_sensitivity_weight",
+      "gain": 1.1464
+    },
+    {
+      "feature": "crop_sensitivity_tier",
+      "gain": 1.049
+    },
+    {
+      "feature": "rainfall_3yr_trend",
+      "gain": 0.7686
+    },
+    {
+      "feature": "jjas_mm_district",
+      "gain": 0.7387
+    },
+    {
+      "feature": "cropland_fraction",
+      "gain": 0.6193
+    },
+    {
+      "feature": "dmi_jjas_lag1",
+      "gain": 0.6044
+    },
+    {
+      "feature": "lpa_mm",
+      "gain": 0.5314
+    },
+    {
+      "feature": "enso_intensity",
+      "gain": 0.5304
+    },
+    {
+      "feature": "agro_zone_enc",
+      "gain": 0.5085
+    },
+    {
+      "feature": "historical_drought_freq",
+      "gain": 0.488
+    },
+    {
+      "feature": "deficit_lag1",
+      "gain": 0.4774
+    },
+    {
+      "feature": "oni_jjas_lag1",
+      "gain": 0.4472
+    },
+    {
+      "feature": "iod_intensity",
+      "gain": 0.3402
+    }
+  ],
+  "shap_mean_abs": {
+    "effective_stress": 1.271340012550354,
+    "rainfall_deficit_pct": 1.1685800552368164,
+    "oni_jjas_mean": 0.625220000743866,
+    "climate_stress_index": 0.296860009431839,
+    "rainfall_sensitivity_weight": 0.18852999806404114,
+    "dmi_jjas_mean": 0.18322999775409698,
+    "oni_jjas_max": 0.15828999876976013,
+    "jjas_mm_district": 0.1338600069284439,
+    "rainfall_3yr_trend": 0.1288599967956543,
+    "drought_streak": 0.09178999811410904,
+    "deficit_lag1": 0.07742000371217728,
+    "lpa_mm": 0.061250001192092896,
+    "dmi_jjas_max": 0.053360000252723694,
+    "dmi_jjas_lag1": 0.05139999836683273,
+    "historical_drought_freq": 0.050209999084472656,
+    "oni_jjas_min": 0.042580001056194305,
+    "enso_intensity": 0.04050999879837036,
+    "oni_jjas_lag1": 0.03440999984741211,
+    "oni_mam_mean": 0.016130000352859497,
+    "iod_intensity": 0.01370999962091446,
+    "crop_sensitivity_tier": 0.013299999758601189,
+    "agro_zone_enc": 0.011880000121891499,
+    "enso_offset_iod": 0.011409999802708626,
+    "dmi_son_mean": 0.011250000447034836,
+    "cropland_fraction": 0.005810000002384186,
+    "enso_phase_enc": 0.00203999993391335,
+    "enso_iod_compound": 0.0012199999764561653,
+    "la_nina_positive_iod": 0.0,
+    "iod_phase_enc": 0.0
+  },
+  "top_features_gain": [
+    "enso_offset_iod",
+    "oni_mam_mean",
+    "enso_iod_compound",
+    "oni_jjas_max",
+    "drought_streak",
+    "oni_jjas_mean",
+    "rainfall_deficit_pct",
+    "effective_stress",
+    "enso_phase_enc",
+    "oni_jjas_min"
+  ],
+  "top_features_shap": [
+    "effective_stress",
+    "rainfall_deficit_pct",
+    "oni_jjas_mean",
+    "climate_stress_index",
+    "rainfall_sensitivity_weight",
+    "dmi_jjas_mean",
+    "oni_jjas_max",
+    "jjas_mm_district",
+    "rainfall_3yr_trend",
+    "drought_streak"
+  ],
+  "shap_available": true,
+  "n_features": 29,
+  "feature_names": [
+    "jjas_mm_district",
+    "rainfall_deficit_pct",
+    "lpa_mm",
+    "rainfall_3yr_trend",
+    "deficit_lag1",
+    "oni_jjas_mean",
+    "oni_jjas_max",
+    "oni_jjas_min",
+    "oni_mam_mean",
+    "oni_jjas_lag1",
+    "enso_intensity",
+    "dmi_jjas_mean",
+    "dmi_jjas_max",
+    "dmi_son_mean",
+    "dmi_jjas_lag1",
+    "iod_intensity",
+    "climate_stress_index",
+    "effective_stress",
+    "enso_iod_compound",
+    "enso_offset_iod",
+    "la_nina_positive_iod",
+    "cropland_fraction",
+    "rainfall_sensitivity_weight",
+    "historical_drought_freq",
+    "drought_streak",
+    "enso_phase_enc",
+    "iod_phase_enc",
+    "agro_zone_enc",
+    "crop_sensitivity_tier"
+  ]
+}

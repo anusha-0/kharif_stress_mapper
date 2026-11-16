@@ -1,0 +1,159 @@
+{
+  "strategy": "leave_one_zone_out",
+  "n_folds": 4,
+  "zones": [
+    "Konkan",
+    "Marathwada",
+    "Vidarbha",
+    "Western Maharashtra"
+  ],
+  "mean_accuracy": 0.9465,
+  "std_accuracy": 0.0212,
+  "mean_f1_weighted": 0.9465,
+  "std_f1_weighted": 0.021,
+  "mean_f1_macro": 0.9158,
+  "std_f1_macro": 0.0397,
+  "folds": [
+    {
+      "fold": 1,
+      "test_zone": "Konkan",
+      "n_train": 891,
+      "n_test": 231,
+      "accuracy": 0.9177,
+      "f1_weighted": 0.9183,
+      "f1_macro": 0.8584,
+      "per_class": {
+        "Low": {
+          "precision": 0.957,
+          "recall": 0.982,
+          "f1": 0.969,
+          "support": 112
+        },
+        "Moderate": {
+          "precision": 0.857,
+          "recall": 0.667,
+          "f1": 0.75,
+          "support": 27
+        },
+        "High": {
+          "precision": 0.667,
+          "recall": 0.846,
+          "f1": 0.746,
+          "support": 26
+        },
+        "Critical": {
+          "precision": 1.0,
+          "recall": 0.939,
+          "f1": 0.969,
+          "support": 66
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "test_zone": "Marathwada",
+      "n_train": 858,
+      "n_test": 264,
+      "accuracy": 0.9773,
+      "f1_weighted": 0.9775,
+      "f1_macro": 0.9681,
+      "per_class": {
+        "Low": {
+          "precision": 1.0,
+          "recall": 0.966,
+          "f1": 0.983,
+          "support": 118
+        },
+        "Moderate": {
+          "precision": 0.879,
+          "recall": 1.0,
+          "f1": 0.935,
+          "support": 29
+        },
+        "High": {
+          "precision": 1.0,
+          "recall": 0.933,
+          "f1": 0.966,
+          "support": 30
+        },
+        "Critical": {
+          "precision": 0.978,
+          "recall": 1.0,
+          "f1": 0.989,
+          "support": 87
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "test_zone": "Vidarbha",
+      "n_train": 759,
+      "n_test": 363,
+      "accuracy": 0.9477,
+      "f1_weighted": 0.9471,
+      "f1_macro": 0.9296,
+      "per_class": {
+        "Low": {
+          "precision": 0.98,
+          "recall": 1.0,
+          "f1": 0.99,
+          "support": 149
+        },
+        "Moderate": {
+          "precision": 0.897,
+          "recall": 0.867,
+          "f1": 0.881,
+          "support": 60
+        },
+        "High": {
+          "precision": 0.889,
+          "recall": 0.862,
+          "f1": 0.875,
+          "support": 65
+        },
+        "Critical": {
+          "precision": 0.967,
+          "recall": 0.978,
+          "f1": 0.972,
+          "support": 89
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "test_zone": "Western Maharashtra",
+      "n_train": 858,
+      "n_test": 264,
+      "accuracy": 0.9432,
+      "f1_weighted": 0.9432,
+      "f1_macro": 0.907,
+      "per_class": {
+        "Low": {
+          "precision": 1.0,
+          "recall": 0.983,
+          "f1": 0.992,
+          "support": 119
+        },
+        "Moderate": {
+          "precision": 0.872,
+          "recall": 0.919,
+          "f1": 0.895,
+          "support": 37
+        },
+        "High": {
+          "precision": 0.8,
+          "recall": 0.774,
+          "f1": 0.787,
+          "support": 31
+        },
+        "Critical": {
+          "precision": 0.949,
+          "recall": 0.961,
+          "f1": 0.955,
+          "support": 77
+        }
+      }
+    }
+  ],
+  "timestamp": "2026-06-18T01:30:18.551830"
+}

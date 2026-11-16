@@ -1,0 +1,37 @@
+district,dominant_kharif_crop,rainfall_sensitivity_weight,sowing_window,harvest_window,agro_zone
+Akola,Cotton,0.9,Jul-15,Oct-15,Vidarbha
+Amravati,Cotton,0.9,Jul-15,Oct-15,Vidarbha
+Yavatmal,Cotton,0.9,Jul-15,Oct-15,Vidarbha
+Wardha,Cotton,0.88,Jul-15,Oct-15,Vidarbha
+Washim,Soybean,0.85,Jun-25,Sep-30,Vidarbha
+Buldhana,Soybean,0.85,Jun-25,Sep-30,Vidarbha
+Nagpur,Soybean,0.82,Jun-25,Sep-30,Vidarbha
+Chandrapur,Rice,0.8,Jun-15,Oct-01,Vidarbha
+Gadchiroli,Rice,0.82,Jun-15,Oct-01,Vidarbha
+Bhandara,Rice,0.83,Jun-15,Oct-01,Vidarbha
+Gondia,Rice,0.83,Jun-15,Oct-01,Vidarbha
+Aurangabad,Sorghum,0.75,Jun-20,Sep-25,Marathwada
+Beed,Sorghum,0.75,Jun-20,Sep-25,Marathwada
+Jalna,Sorghum,0.72,Jun-20,Sep-25,Marathwada
+Parbhani,Soybean,0.8,Jun-25,Sep-30,Marathwada
+Hingoli,Soybean,0.8,Jun-25,Sep-30,Marathwada
+Latur,Soybean,0.82,Jun-25,Sep-30,Marathwada
+Osmanabad,Soybean,0.82,Jun-25,Sep-30,Marathwada
+Nanded,Sorghum,0.73,Jun-20,Sep-25,Marathwada
+Pune,Sorghum,0.65,Jun-20,Sep-25,Western Maharashtra
+Nashik,Onion,0.6,Jun-15,Sep-20,Western Maharashtra
+Ahmednagar,Sugarcane,0.4,Jul-01,Mar-01,Western Maharashtra
+Solapur,Sorghum,0.7,Jun-20,Sep-25,Western Maharashtra
+Sangli,Sugarcane,0.38,Jul-01,Mar-01,Western Maharashtra
+Satara,Rice,0.75,Jun-15,Sep-30,Western Maharashtra
+Kolhapur,Rice,0.78,Jun-15,Sep-30,Western Maharashtra
+Jalgaon,Cotton,0.87,Jul-15,Oct-15,Western Maharashtra
+Dhule,Cotton,0.85,Jul-15,Oct-15,Western Maharashtra
+Nandurbar,Rice,0.8,Jun-15,Sep-30,Western Maharashtra
+Ratnagiri,Rice,0.85,Jun-10,Oct-01,Konkan
+Sindhudurg,Rice,0.85,Jun-10,Oct-01,Konkan
+Raigad,Rice,0.83,Jun-10,Oct-01,Konkan
+Thane,Rice,0.78,Jun-10,Oct-01,Konkan
+Palghar,Rice,0.78,Jun-10,Oct-01,Konkan
+Mumbai City,N/A,0.0,N/A,N/A,Konkan
+Mumbai Suburban,Rice,0.6,Jun-10,Oct-01,Konkan

@@ -1,0 +1,16 @@
+# Node / Vite
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Raw data: too large for GitHub (ESA tiles >100 MB, IMD grids ~900 MB)
+kharif-crop-stress-map/data/raw/esa/*.tif
+kharif-crop-stress-map/data/raw/imd/
+
+# Stray file
+kharif-crop-stress-map/pd.DataFrame
